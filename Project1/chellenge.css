@@ -1,0 +1,82 @@
+body {
+	background: rgb(50, 50, 50);
+	color: white;
+	font-size: 20px;
+}
+
+
+#main {
+	display: grid;
+	grid-template-columns: 70% 30%;
+}
+
+img {
+	width: 400px;
+	height: 200px;
+	transition: 0.5s all;
+}
+
+img:hover {
+	height: 250px;
+	width: 450px;
+	transition: all ease 1s;
+}
+
+#title {
+	text-align: center;
+	font-size: 50px;
+	font-weight: 800;
+}
+
+.heading {
+	font-size: 2em;
+}
+
+.subtitle {
+	color: rgb(212, 8, 66);
+}
+
+#image-1 {
+	width: 300px;
+	height: 350px;
+	float: center;
+}
+
+#image-1:hover {
+	width:500px;
+	height:600px;
+	transition: all ease 1s;
+}
+
+.image-flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.grid-item {
+	margin: 10px;
+}
+
+
+.post{
+	background: rgb(245, 115, 219);
+	border-radius: .4cm;
+}
+
+.post-text{
+	margin-left: 8px;
+	text-align: center;
+}
+
+.link {
+	margin-left: 10px;
+}
+
+.link:hover {
+	color:red;
+}
+
+.post-title {
+	margin-left: 10px;
+}

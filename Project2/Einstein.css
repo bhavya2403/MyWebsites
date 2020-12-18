@@ -1,0 +1,58 @@
+body {
+	background: rgb(200, 200, 200);
+	text-align: justify;
+}
+
+.title {
+	font-family:"Lobster", curcive;
+	font-size: 4em;
+	font-weight: 800;
+}
+
+.main-content {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+}
+
+.Emc2 {
+	color: rgb(31, 109, 242);
+	font-size: 1.5em;
+}
+
+.image {
+    background-image: url(Einstein.jpg);
+    height: 500px;
+    width: 400px;
+    background-size:cover;
+    margin: auto;
+}
+
+#heading {
+	font-weight: 600;
+}
+
+.footer{
+	background: #ececec;
+	border-radius: .4cm;
+}
+
+#quote {
+	font-family:"Lobster", curcive;
+	font-size: 2em;
+	font-weight: 600;
+}
+
+#by {
+	font-family:"Lobster", curcive;
+	font-size: 1.5em;
+	float:right;
+
+}
+
+#lline {
+	font-size: 1.5em;
+}
+
+a:hover {
+	color: red;
+}

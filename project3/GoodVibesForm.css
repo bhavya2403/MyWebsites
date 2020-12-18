@@ -1,0 +1,47 @@
+body {
+	background: rgba(50, 141, 168, 0.5);
+}
+
+.title {
+	font-size: 3.5em;
+	margin-top: 40px;
+}
+
+.main-content {
+	background: rgb(250,250,250);
+	font-size: 1.5em;
+	margin:auto;
+	width:85%;
+	border: 1px solid black;
+	border-radius: 1em;
+}
+
+#heading {
+	font-size: 2em;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+td:first-child {
+	float:right;
+}
+
+td {
+	margin-top: 17px;
+	margin-bottom: 15px;
+}
+
+.submit {
+	background: rgb(65, 171, 232);
+	color: white;
+	margin: 30px 10vw 50px 40vw;
+	padding: 10px 10px;
+	font-size:25px;
+	font-weight: 600;
+	border-radius: 0.5em;
+
+}
+
+.submit:hover {
+	background:rgb(98, 191, 245);
+}

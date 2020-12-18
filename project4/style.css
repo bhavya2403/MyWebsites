@@ -1,0 +1,90 @@
+.header {
+    background: url("heroimage.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.writing-part {
+    width: 60%;
+    margin: auto;
+}
+
+.subt {
+    padding-top: 20%;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.after-subt {
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.postcode {
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 19%;
+}
+.text  {
+    color: rgb(54, 46, 46);
+    padding-left: 23%;
+    margin-left: 19%;
+    margin-top: 5px;
+    width: 38%;
+    height: 30px;
+    border-radius: .2cm;
+    border: 2px solid black;
+    outline: none;
+}
+
+.button {
+    background: rgb(74, 221, 201);
+    color: white;
+    font-size: large;
+    margin-top: 10px;
+    margin-left: 39%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 20%;
+    height: 50px;
+    border-radius: .2cm;
+}
+
+.image-flex {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.cont-item {
+    border: 1px solid black;
+    border-radius: .3cm;
+    height: 260px;
+    width: 300px;
+    background: rgb(253, 251, 247);
+    margin: 10px;
+}
+
+.cont-item:hover {
+    height: 265px;
+    width: 305px;
+    transition: 1s all;
+}
+
+.next-to-img {
+    color: black;
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+
+

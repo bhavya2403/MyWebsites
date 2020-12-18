@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="GoodVibesForm.css">
+    <title>Good Vibes Form</title>
+</head>
+<body>
+    <div class="title" align="center">Good Vibes Form</div>
+    <div class="main-content">
+        <div align="center" id="heading">Tell us something positive that happened to you today.</div>
+        <table align="center">
+            <tr>
+                <td>Name</td>
+                <td><input type="text" placeholder="Enter name here"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" placeholder="Enter your email adress"></td>
+            </tr>
+            <tr>
+                <td>On a scale of 1-10, how good was it? </td>
+                <td><input type="number" min=1 max=10></td>
+            </tr>
+            <tr>
+                <td>Where did that happen?</td>
+                <td><select>
+                    <option>At home</option>
+                    <option>On my commute</option>
+                    <option>At work</option>
+                    <option>On the street</option>
+                    <option>Other</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>At what time of day did it happen?</td>
+                <td>
+                    <input type="radio" name="gender" checked>Morning<br>
+                    <input type="radio" name="gender">Afternoon<br>
+                    <input type="radio" name="gender">Evening</td>
+            </tr>
+            <tr>
+                <td>What emotions did you experience?</td>
+                <td>
+                    <input type="checkbox">Excited<br>
+                    <input type="checkbox">Humbled<br>
+                    <input type="checkbox">Elated<br>
+                    <input type="checkbox">Loved<br>
+                    <input type="checkbox">Enthusiastic<br>
+                </td>
+            </tr>
+            <tr>
+                <td>Please describe your positive experience.</td>
+                <td><textarea rows="4" cols="40"></textarea> </td>
+            </tr>
+        </table>
+        <input type="submit" class="submit" align="center"> 
+    </div>
+</body>
+</html>
